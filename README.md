@@ -149,7 +149,7 @@ It is of utmost importance to ensure that the data is uniform and has high data 
 #inspecting the data in daily_activity dataframe
 daily_activity.head()
 ```
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/check%20col%20names1.PNG">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/check%20col%20names1.PNG">
 
 - Data types of the column can be inspected using the .info() method from pandas library.
 > Code Snippet
@@ -159,7 +159,7 @@ daily_activity.head()
 daily_activity.info()
 ```
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/data%20type.PNG">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/data%20type.PNG">
 
 - 5 Number Summary refers to the method of calculating the minimum value, 1st quartile, mean, 3rd quartile, and maximum value for the numeric features of dataframes.
 This can be easily achieved with the help of .info() method of pandas library.
@@ -170,7 +170,7 @@ This can be easily achieved with the help of .info() method of pandas library.
 daily_activity.describe()
 ```
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/describe.PNG">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/describe.PNG">
 
 ## 4. Data Processing <a name="section4"></a>
 Data processing phase consists of activities such as correcting the data types wherever necessary, removing duplicates, removing nulls and imputing outliers. In this section we will look into all these aspects of data processing.
@@ -248,7 +248,7 @@ People cover average 7637 steps on a day to day basis. Some days, the minimum st
 
 > Below shows the statistical summary of steps covered by people on average
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/describe.PNG">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/describe.PNG">
 
 - 2. What percentage of people cover steps less than the population mean?
 
@@ -258,18 +258,18 @@ People cover average 7637 steps on a day to day basis. Some days, the minimum st
 
 42.42% of users cover more than the recommended 8000 daily steps
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/steps%20below%20average..PNG"> 
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/steps%20below%20average..PNG"> 
 
 - 4. Which day of the week people are least active physically?
 
 On an average people's activity levels seems stable. There is only a slight difference on Saturdays and Tuesdays where the activity levels seem slightly above the threshold, whereas on thursdays and fridays the activily levels are relatively low.
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/steps%20taken%20each%20day.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/steps%20taken%20each%20day.png">
 
 - 5. What are the durations in a day where people's activity levels go down.
 From the visualizations it can be said that people's activity levels usually take a dip at 11 am, 1 pm, 3 pm, and then falls steeply after 7 pm.
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/steps%20taken%20each%20hour.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/steps%20taken%20each%20hour.png">
 
 - 6. How much additional calories on an average are burnt by people who achieve their daily target of 8000 steps when compared to those who do not achieve the daily target?
 
@@ -277,8 +277,8 @@ Mean(calories burn) for people who covered less than 8000 steps: 1991.99
 Mean(calories burn) for people who covered greater than 8000 steps: 2668.49
 People who covered 8000 steps daily, burnt 676.5 calories more on an average than people who covered less than 8000 steps daily.
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/calories%20vs%20sleep.png">
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/steps%20below%20average..PNG">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/calories%20vs%20steps.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/step%20cal%20burn%20compare.PNG">
 
 - 7. What is the general heartrate trend throughout the day?
 
@@ -303,7 +303,7 @@ plt.text(0,80.5,"Upper resting heart rate")
 axes.set_title("Genral trend: Heartbeat each hour")
 ```
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/heartbeat%20each%20hour.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/heartbeat%20each%20hour.png">
 
 - 8. Is there any relationship between the total sleep time and calories burnt ?
 
@@ -321,8 +321,8 @@ sns.displot(sleep_cal_joined['TotalMinutesAsleep'], kde = False )
 plt.grid()
 ```
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/calorie%20vs%20sleep..png">
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/sleep%20hist.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/calorie%20vs%20sleep..png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/sleep%20hist.png">
 
 - 9. Which days does people sleep the least? 
 
@@ -345,7 +345,7 @@ daily_sleep_agg['day_of_week'] = daily_sleep_agg['dayno_of_sleep'].map({
 sns.barplot(daywise_sleep_agg,x='day_of_week',y='TotalMinutesAsleep')
 ```
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/sleep%20days.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/sleep%20days.png">
 
 - 10. What time of the day does people usually sleep?
 
@@ -374,7 +374,7 @@ axes.set_ylabel("Count")
 axes.set_title("Count of hourwise sleep state"
 ```
 
-<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/sleep%20hours.png">
+<img src="https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis/blob/main/Bellabeat%20files/sleep%20hours.png">
 
 ## 7. Key Suggestions <a name="key_suggestions"></a>
 

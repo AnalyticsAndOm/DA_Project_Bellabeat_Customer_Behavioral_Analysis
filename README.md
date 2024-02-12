@@ -1,4 +1,4 @@
-#Customer Behavioral Analysis for a Wearable Tech Company - Bellabeat
+# Customer Behavioral Analysis for a Wearable Tech Company - Bellabeat
 - Github repository at: https://github.com/AnalyticsAndOm/DA_Project_Bellabeat_Customer_Behavioral_Analysis
 - File name: Bellabeat customer trend analysis.ipynb
 - Dataset Name: Fitabase Data
